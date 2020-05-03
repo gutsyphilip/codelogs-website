@@ -1,0 +1,47 @@
+@import "../../styles/breakpoint";
+@import "../../styles/converter";
+@import "../../styles/variables";
+
+.hero {
+  // margin-top: to-rem(53);
+
+  @include md() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &_caption {
+    margin-top: to-rem(63);
+    flex: 1;
+    width: 100%;
+
+    @include md() {
+      min-width: to-rem(400);
+    }
+
+    &_title {
+      font-size: to-rem(28);
+      color: $theme-purple;
+    }
+
+    &_description {
+      font-size: to-rem(18);
+      color: $text-light;
+      margin-top: to-rem(13);
+    }
+
+    &_button {
+      margin-top: to-rem(24);
+    }
+  }
+
+  &_upNext {
+    margin-top: to-rem(82);
+    @include lg() {
+      margin-left: to-rem(20);
+      max-width: to-rem(383);
+      width: to-rem(383);
+    }
+  }
+}

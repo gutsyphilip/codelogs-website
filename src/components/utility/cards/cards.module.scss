@@ -1,0 +1,63 @@
+@import "../../../styles/breakpoint";
+@import "../../../styles/converter";
+@import "../../../styles/variables";
+
+.card {
+  border-radius: to-rem(5);
+  &_light {
+    background: $light-grey;
+  }
+  &_hasPadding {
+    padding: to-rem(37 32.5);
+
+    @include md() {
+      padding: to-rem(39 36);
+    }
+  }
+}
+
+.featuredCard {
+  &_label {
+    color: $theme-purple;
+    font-size: to-rem(14);
+  }
+
+  &_title {
+    color: $text-dark;
+    font-size: to-rem(24);
+  }
+
+  &_date {
+    color: $text-light;
+    font-size: to-rem(16);
+  }
+  &_speaker {
+    display: flex;
+    width: 100%;
+    margin-top: to-rem(46);
+    &_image {
+      object-fit: cover;
+      height: 100%;
+      width: to-rem(54);
+      margin-right: to-rem(10);
+      border-radius: to-rem(5);
+    }
+    &_details {
+      flex: 1;
+      width: 100%;
+      &_title {
+        font-size: to-rem(18);
+        color: $theme-purple;
+      }
+      &_position {
+        font-size: to-rem(14);
+        color: #68696a;
+        text-transform: uppercase;
+      }
+      &_company {
+        font-size: to-rem(13);
+        color: $theme-purple;
+      }
+    }
+  }
+}

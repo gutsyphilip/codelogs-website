@@ -1,0 +1,16 @@
+@import "../../styles/breakpoint";
+@import "../../styles/converter";
+@import "../../styles/variables";
+
+.header {
+}
+
+.footer {
+}
+
+.layout {
+  padding: to-rem(49 30);
+  @include md() {
+    padding: to-rem(50 60);
+  }
+}

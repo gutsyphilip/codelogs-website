@@ -1,0 +1,25 @@
+@import "../../../styles/converter";
+@import "../../../styles/variables";
+
+.button {
+  font-size: to-rem(16);
+  letter-spacing: 0.02rem;
+  padding: to-rem(14 32);
+  border-radius: to-rem(5);
+  -webkit-appearance: none;
+  border-style: none;
+  background-color: $white;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  &:hover {
+    opacity: 0.9;
+  }
+  &_themed {
+    background: $theme-purple;
+    color: $white;
+  }
+}
