@@ -1,9 +1,9 @@
-import AvatarImage from '../../assets/images/avatar.jpg'
-import { Button } from '../utility/button'
-import { FeaturedCard } from '../utility/cards'
+import AvatarImage from '../../../assets/images/avatar.jpg'
+import { Button } from '../../utility/button'
+import { FeaturedCard } from '../../utility/cards'
 import React from 'react'
-import { cardVariantTypes } from '../utility/cards/card.type'
-import styles from './home.module.scss'
+import { cardVariantTypes } from '../../utility/cards/card.type'
+import styles from './hero.module.scss'
 
 const Hero = () => {
   return (

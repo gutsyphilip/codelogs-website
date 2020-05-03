@@ -1,4 +1,4 @@
-import { Hero } from '../components/home'
+import { Hero, Episodes } from '../components/home'
 import Image from '../components/utility/image'
 import Layout from '../components/layout/Layout'
 import { Link } from 'gatsby'
@@ -9,6 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
+    <Episodes />
   </Layout>
 )
 

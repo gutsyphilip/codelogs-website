@@ -5,7 +5,7 @@
 .card {
   border-radius: to-rem(5);
   &_light {
-    background: $light-grey;
+    background: $theme-light-purple;
   }
   &_hasPadding {
     padding: to-rem(37 32.5);
