@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly 1`] = `
+<div
+  className="layout"
+>
+  <header>
+    <a
+      href="/"
+    >
+      <test-file-stub />
+       
+      
+    </a>
+  </header>
+  <div>
+    <main>
+       
+      <section
+        className="hero"
+      >
+        <div
+          className="hero_caption"
+        >
+          <h2
+            className="hero_caption_title"
+          >
+            Welcome to Codelogs!
+          </h2>
+          <p
+            className="hero_caption_description"
+          >
+            Quality streams on advanced software engineering concepts taught by experienced professionals.
+          </p>
+          <button
+            className="button hero_caption_button button_themed"
+          >
+            Watch videos
+          </button>
+        </div>
+        <div>
+          <section
+            className="card hero_upNext featuredCard card_light card_hasPadding"
+          >
+            <div>
+              <h6
+                className="featuredCard_label"
+              >
+                COMING SOON
+              </h6>
+              <h2
+                className="featuredCard_title"
+              >
+                Defining your Testing Strategy using the Testing Pyramid.
+              </h2>
+              <p
+                className="featuredCard_date"
+              >
+                Saturday, May 2 2020 - 18:00 WAT
+              </p>
+            </div>
+            <div
+              className="featuredCard_speaker"
+            >
+              <img
+                alt=""
+                className="featuredCard_speaker_image"
+                src="test-file-stub"
+              />
+              <div
+                className="featuredCard_speaker_details"
+              >
+                <h4
+                  className="featuredCard_speaker_details_title"
+                >
+                  Philip Obosi
+                </h4>
+                <h6
+                  className="featuredCard_speaker_details_position"
+                >
+                  Snr. Software Engineer
+                </h6>
+                <p
+                  className="featuredCard_speaker_details_company"
+                >
+                  Kudi Inc.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+       
+    </main>
+  </div>
+</div>
+`;

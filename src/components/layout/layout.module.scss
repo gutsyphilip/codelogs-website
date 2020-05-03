@@ -2,12 +2,6 @@
 @import "../../styles/converter";
 @import "../../styles/variables";
 
-.header {
-}
-
-.footer {
-}
-
 .layout {
   padding: to-rem(49 30);
   @include md() {
