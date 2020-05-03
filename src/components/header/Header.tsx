@@ -1,7 +1,7 @@
-import { InsigniaIcon } from "../../assets/svgs"
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { InsigniaIcon } from '../../assets/svgs'
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -12,11 +12,11 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
+  siteTitle: PropTypes.string
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: ``
 }
 
 export default Header

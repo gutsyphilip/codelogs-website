@@ -1,9 +1,9 @@
-import AvatarImage from "../../assets/images/avatar.jpg"
-import { Button } from "../utility/button"
-import { FeaturedCard } from "../utility/cards"
-import React from "react"
-import { cardVariantTypes } from "../utility/cards/card.type"
-import styles from "./home.module.scss"
+import AvatarImage from '../../assets/images/avatar.jpg'
+import { Button } from '../utility/button'
+import { FeaturedCard } from '../utility/cards'
+import React from 'react'
+import { cardVariantTypes } from '../utility/cards/card.type'
+import styles from './home.module.scss'
 
 const Hero = () => {
   return (
@@ -23,10 +23,10 @@ const Hero = () => {
         <FeaturedCard
           className={styles.hero_upNext}
           data={{
-            date: "Saturday, May 2 2020 - 18:00 WAT",
-            label: "COMING SOON",
-            title: "Defining your Testing Strategy using the Testing Pyramid.",
-            image: AvatarImage,
+            date: 'Saturday, May 2 2020 - 18:00 WAT',
+            label: 'COMING SOON',
+            title: 'Defining your Testing Strategy using the Testing Pyramid.',
+            image: AvatarImage
           }}
           hasPadding
           variant={cardVariantTypes.light}

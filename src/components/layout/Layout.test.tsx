@@ -4,9 +4,15 @@ import { Hero } from '../home'
 import renderer from 'react-test-renderer'
 
 describe('Layout', () => {
-    it('renders correctly', () => {
-        const tree = renderer.
-        create(<Layout> <Hero/> </Layout>).toJSON()
-        expect(tree).toMatchSnapshot()
-    })
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(
+        <Layout>
+          {' '}
+          <Hero />{' '}
+        </Layout>
+      )
+      .toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })

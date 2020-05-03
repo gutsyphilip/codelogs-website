@@ -1,6 +1,6 @@
-import React from "react"
-import cx from "classnames"
-import styles from "./button.module.scss"
+import React from 'react'
+import cx from 'classnames'
+import styles from './button.module.scss'
 
 type ButtonProps = {
   className?: string
@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = ({ className, children, variant }) => {
   return (
     <button
       className={cx(styles.button, className, {
-        [styles[`button_${variant}`]]: variant,
+        [styles[`button_${variant}`]]: variant
       })}
     >
       {children}

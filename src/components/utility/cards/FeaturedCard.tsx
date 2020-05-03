@@ -1,7 +1,7 @@
-import { CardProps } from "./card.type"
-import React from "react"
-import cx from "classnames"
-import styles from "./cards.module.scss"
+import { CardProps } from './card.type'
+import React from 'react'
+import cx from 'classnames'
+import styles from './cards.module.scss'
 
 interface FeaturedCardProps extends CardProps {
   className: string
@@ -16,16 +16,16 @@ interface FeaturedCardProps extends CardProps {
 
 const FeaturedCard: React.FC<FeaturedCardProps> = ({
   className,
-  data: { date, label, title, image },
+  data,
   hasPadding,
-  variant,
+  variant
 }) => {
-  console.log(variant)
+  const { date, label, title, image } = data
   return (
     <section
       className={cx(styles.card, className, styles.featuredCard, {
         [styles[`card_${variant}`]]: variant,
-        [styles.card_hasPadding]: hasPadding,
+        [styles.card_hasPadding]: hasPadding
       })}
     >
       <div>
