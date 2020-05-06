@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Episodes should render successfully 1`] = `
+<section
+  className="episodes"
+>
+  <h6
+    className="episodes_label"
+  >
+    Episodes
+  </h6>
+  <h2
+    className="episodes_title"
+  >
+    Watch videos from past episodes.
+  </h2>
+  <input
+    className="input"
+    placeholder="Search videos by titles"
+  />
+  <div
+    className="episodes_listing"
+  />
+</section>
+`;

@@ -18,9 +18,11 @@
 
     &_title{
         color: $text-dark;
-        margin-top: to-rem(3);
+        margin: to-rem(3 0 32 0);
         font-size: to-rem(28);
     }
 
-
+    &_listing{
+        margin-top: to-rem(52)
+    }
 }

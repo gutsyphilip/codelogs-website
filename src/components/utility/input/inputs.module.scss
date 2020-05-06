@@ -1,0 +1,12 @@
+@import "../../../styles/breakpoint";
+@import "../../../styles/converter";
+@import "../../../styles/variables";
+
+.input{
+    width: 100%;
+    border-radius: 5px;
+    padding: to-rem(10 0 13 45);
+    border: 1px solid $theme-purple;
+
+
+}
